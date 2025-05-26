@@ -5,7 +5,8 @@
     "moduleResolution": "Bundler",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "types": ["vite/client"],
+    "types": ["vite/client", "vuetify"],
+    "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
